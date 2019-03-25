@@ -9,9 +9,6 @@
     "module": "commonjs",
     "target": "es5"
   },
-  "files": [
-    "dts/index.d.ts"
-  ],
   "types": [
     "jquery",
     "node"
