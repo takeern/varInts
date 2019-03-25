@@ -1,8 +1,8 @@
 {
   "name": "varints",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "compression port to javascript, works in browser & node.js",
-  "main": "distTs/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register test/*.ts"
   },
