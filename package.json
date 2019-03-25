@@ -4,11 +4,19 @@
   "description": "compression port to javascript, works in browser & node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register test/*.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^11.11.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
   }
 }
