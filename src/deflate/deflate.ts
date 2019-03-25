@@ -43,7 +43,7 @@ const ar2Varints = (ab: any): number[] => {
 const num2Varint = (num: number): number[] => {
     const dist = [];
     let value = mapEncode(num);
-    while (value > 256) {
+    while (value > 128) {
         const byte7 = value & 0x7f | 0x80; // 取后7位并加上首位标识符
         dist.push(byte7);
         value = value >>> 7;
